@@ -5,7 +5,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon[]
+Icon[
+]
 
 # Thumbnails
 ._*
@@ -238,3 +239,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PDF
+*.pdf
