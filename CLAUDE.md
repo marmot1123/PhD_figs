@@ -15,14 +15,17 @@ This repository contains Python code for generating figures for Seki Motoki's Ph
 
 ## Development Commands
 
-Since this is a basic Python project without specific build tools configured:
+This project uses uv for dependency management:
 
 ```bash
-# Run the main script
-python main.py
+# Generate figures
+uv run main.py
 
-# Install in development mode (when dependencies are added)
-pip install -e .
+# Install dependencies
+uv sync
+
+# Add new dependencies
+uv add <package-name>
 ```
 
 ## Python Environment
