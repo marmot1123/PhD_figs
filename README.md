@@ -23,3 +23,13 @@ uv self update
 uv cache clean
 uv sync
 ```
+
+## Figure Generation
+
+### Generate All Figures
+```bash
+# Generate all FPM figures with different parameter combinations
+uv run main.py
+```
+
+This will create multiple PDF figures in the `figs/` directory based on the configurations defined in `figures_config.py`. Each figure shows 3D plots and heatmaps of f+ and f- functions with different parameter sets (a1, a2).
