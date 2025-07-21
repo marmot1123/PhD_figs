@@ -33,3 +33,11 @@ uv run main.py
 ```
 
 This will create multiple PDF figures in the `figs/` directory based on the configurations defined in `figures_config.py`. Each figure shows 3D plots and heatmaps of f+ and f- functions with different parameter sets (a1, a2).
+
+### Generate Convergence Plot
+```bash
+# Generate convergence plot with fixed a1 and varying a2
+uv run convergence.py
+```
+
+This creates a single 2x4 subplot figure (`figs/convergence.pdf`) showing f+ function with fixed a1=1/√2 and varying a2 values (7/8, 15/16, 31/32, 0.999). Left column shows 3D plots, right column shows heatmaps.
